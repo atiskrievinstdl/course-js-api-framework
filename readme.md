@@ -26,6 +26,7 @@ To run tests, run the following command
 ```
 $testSetName - mandatory param, test set name. List of the supported test sets:
  - user
+ - greetings
 
 $env - environment 
 
