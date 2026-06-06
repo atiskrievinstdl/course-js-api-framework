@@ -7,7 +7,7 @@ pipeline {
         stage('build') {
 	    when{
 	    	anyOf{
-		    changeset "tests"
+		    changeset "tests/**"
 		    changeset "package.json"
 		    changeset "config.js"
 		    changeset "Jenkinsfile"
