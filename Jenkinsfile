@@ -10,6 +10,7 @@ pipeline {
 		    changeset "tests"
 		    changeset "package.json"
 		    changeset "config.js"
+		    changeset "Jenkinsfile"
 		}
 	    }
             steps {
